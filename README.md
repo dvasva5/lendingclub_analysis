@@ -36,7 +36,7 @@ Due to the final and skewed dataset of 400,489 files, the baseline score or spli
 
   ![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
   
- - TN: 71,892 = we predicted no they're not defaults (will perform good), and they were not defaults (performed good).
- - FP: 1,446 = we predicted yes they are defaults (will perform bad), but they were not actual defaults (performed good) (Type I error).
- - FN: 24,980 = we predicted no they're not defaults (will perform good), and they were defaults (they performed bad) (Type II error).
- - TP: 1,805 = we predicted yes they are defaults (will perform bad), and they were actual defaults (performed bad).
+- TN: 71,892 = predicted no they're not defaults (will perform good), and they were not defaults (performed good).
+- FP: 1,446 = predicted yes they are defaults (will perform bad), but they were not actual defaults (performed good) (Type I error).
+- FN: 24,980 = predicted no they're not defaults (will perform good), and they were defaults (they performed bad) (Type II error).
+- TP: 1,805 = predicted yes they are defaults (will perform bad), and they were actual defaults (performed bad).
