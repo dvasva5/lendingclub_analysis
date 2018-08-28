@@ -26,7 +26,7 @@ Given a predefined set of borrower credit history and characteristics, can we se
 I think that employing a classification learner such as logistic regression or random forests, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance from a predefined set of loan application features.
 ______________
 ### Exploring the Features
-Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset, followed by several charts to visualize the dataset. 
+Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset, followed by several charts to visualize thei features. 
 
 Check out: 
 
