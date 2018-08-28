@@ -34,6 +34,4 @@ _______________
 ### Running the Logistic Regression and Random Forests model
 Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows:
 
-![Confusion Matrix](h.png)
-
-
+![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
