@@ -28,6 +28,6 @@ ______________
 ### Exploring the Features
 Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset, followed by several charts to visualize thei features. 
 
-Check out: 
+Check out: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
 
 
