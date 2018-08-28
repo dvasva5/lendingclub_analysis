@@ -29,7 +29,7 @@ ______________
 Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset, followed by several charts to visualize their features. 
 
 Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
-Visualizing the Features: 
+Visualizing the Features: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
 _______________
 ### Running the Logistic Regression and Random Forests model
-Due to the final and skewed dataset
+Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans.
