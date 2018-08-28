@@ -34,9 +34,15 @@ _______________
 ### Running the Logistic Regression and Random Forests model
 Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows:
 
-  ![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
+![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
   
 - TN: 71,892 = predicted no they're not defaults (will perform good), and they were not defaults (performed good).
 - FP: 1,446 = predicted yes they are defaults (will perform bad), but they were not actual defaults (performed good) (Type I error).
 - FN: 24,980 = predicted no they're not defaults (will perform good), and they were defaults (they performed bad) (Type II error).
 - TP: 1,805 = predicted yes they are defaults (will perform bad), and they were actual defaults (performed bad).
+
+The recall score which shows when the model predicts defaults and it's actually a default or TP/actual yes is: 7%.
+
+The ROC curve which shows the relationship between the FPR (false positive rate) and the TPR (true positive rate or recall) has an AUC (area under the curve) score of: 66.2%
+
+![ROC Curve](https://github.com/dvasva5/lendingclub_analysis/blob/master/roc_curve.png)
