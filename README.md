@@ -31,23 +31,17 @@ Visualizing the Features: https://github.com/dvasva5/lendingclub_analysis/blob/m
 
 Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset while displaying graphs to visualize the data. 
 
-The following charts are just some samples: 
+The following charts are just some samples: ![Annual Income Data](https://github.com/dvasva5/lendingclub_analysis/blob/master/Annual%20Income%20data.png)
 
-![Annual Income Data](https://github.com/dvasva5/lendingclub_analysis/blob/master/Annual%20Income%20data.png)
-
-![Total Current Balance by Loan Performance](https://github.com/dvasva5/lendingclub_analysis/blob/master/Total%20Current%20Balance%20by%20Loan%20Performance.png)
+In this chart "0" denotes non-default and "1" denotes default: ![Total Current Balance by Loan Performance](https://github.com/dvasva5/lendingclub_analysis/blob/master/Total%20Current%20Balance%20by%20Loan%20Performance.png)
 
 _______________
 ### Running the Random Forests and Logistic Regression model
 Running the Models code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb
 
-I ran a random forests model to rank the importance of and narrow the list of features to use on the logistic regression model. The final rank and list of features used on the logistic regression model are the following:
+I ran a random forests model to rank the importance of and narrow the list of features to use on the logistic regression model. The final rank and list of features used on the logistic regression model are the following: ![Random Forest features](https://github.com/dvasva5/lendingclub_analysis/blob/master/rf_featuresrank.png)
 
-![Random Forest features](https://github.com/dvasva5/lendingclub_analysis/blob/master/rf_featuresrank.png)
-
-Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows:
-
-![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
+Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows: ![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
   
 - TN: 71,892 = predicted no they're not defaults (will perform good), and they were not defaults (performed good).
 - FP: 1,446 = predicted yes they are defaults (will perform bad), but they were not actual defaults (performed good) (Type I error).
@@ -56,9 +50,7 @@ Due to the final and skewed dataset of 400,489 files, the baseline score or spli
 
 The recall score which shows when the model predicts defaults and it's actually a default or TP/actual yes is: 7%.
 
-The ROC curve which shows the relationship between the FPR (false positive rate) and the TPR (true positive rate or recall) has an AUC (area under the curve) score of: 66.2%
-
-![ROC Curve](https://github.com/dvasva5/lendingclub_analysis/blob/master/roc_curve.png)
+The ROC curve which shows the relationship between the FPR (false positive rate) and the TPR (true positive rate or recall) has an AUC (area under the curve) score of: 66.2% ![ROC Curve](https://github.com/dvasva5/lendingclub_analysis/blob/master/roc_curve.png)
 _______________
 ### Compiling the Credit Scorecard
 Compiling the Scorecard code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/Scorecard%20build.ipynb
