@@ -33,6 +33,7 @@ Visualizing the Features: https://github.com/dvasva5/lendingclub_analysis/blob/m
 _______________
 ### Running the Random Forests and Logistic Regression model
 Running the Models code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb
+
 I ran a random forests model to rank the importance of and narrow the list of features to use on the logistic regression model. The final rank and list of features used on the logistic regression model are the following:
 
 ![Random Forest features](https://github.com/dvasva5/lendingclub_analysis/blob/master/rf_featuresrank.png)
