@@ -50,7 +50,7 @@ Due to the final and skewed dataset of 400,489 files, the baseline score or spli
 - FN: 24,980 = predicted no they're not defaults (will perform good), and they were defaults (they performed bad) (Type II error).
 - TP: 1,805 = predicted yes they are defaults (will perform bad), and they were actual defaults (performed bad).
 
-The recall score which shows when the model predicts defaults and it's actually a default or TP/actual yes is: 7%.
+**The recall score which shows when the model predicts defaults and it's actually a default or TP/actual yes is: 7%.**
 
 The ROC curve which shows the relationship between the FPR (false positive rate) and the TPR (true positive rate or recall) has an AUC (area under the curve) score of: 66.2% 
 
