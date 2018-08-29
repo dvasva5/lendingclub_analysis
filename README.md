@@ -15,7 +15,7 @@ Modern lending is  increasingly relying on automated systems to evaluate borrowe
 
 I am going to explore the dataset which includes over 1.3 million loan files and over 100 variables which include:
  - Basic borrower information (brief demographics)
- - Borrower credit history (credit score, income, debts, open accounts, etc.)
+ - Borrower credit history (open accounts, bankcard credit limits, income, debts, etc.)
  - Loan information (terms, rates, payments, etc.)
  - Loan performance (status, i.e. collections, default, PIF)
 ______________
