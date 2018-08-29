@@ -67,7 +67,7 @@ After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and I
 
 This scorecard is a simple template to assess borrowers and could be improved if based on a more comprehensive dataset and more indicative features to derive coefficients from. Considering the cut-off scores, the median score was arbitrarily chosen as the cut-off instead of a more analyitcal approach taking the whole pool of borrowers and perecentage of acceptance considering the underlying business's risk tolerance and ROI.
 
-You can use the scorecard on this excel sheet: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
+**You can use the scorecard on this excel sheet:** https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
 ______________
 ### Conclusion
 Given the unsatisfactory recall score from the logistic regression model and its inability to predict default loans from the test set we're given unreliable coefficients to classify features between the non-default and default loans dataset. Originally, the LendingClub dataset included more features but only accounted for approximately 20% of the used set - meaning this study took quantity of loans over quality of features used.
