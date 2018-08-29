@@ -58,7 +58,7 @@ _______________
 ### Compiling the Credit Scorecard
 Compiling the Scorecard code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/Scorecard%20build.ipynb
 
-![Scorecard_sample](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_sample.png)
+![Scorecard_sample](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_sample.png) 
 
 After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and Implementing Intelligent Credit Scoring" he outlines a formula to bucket and score features to compile a scorecard to assess individual borrowers against. I used Sundar Krishnan python code to bucket and compute the features into WoE and IV values, you can find his code here: https://github.com/Sundar0989/WOE-and-IV/blob/master/WOE_IV.ipynb 
 
