@@ -40,8 +40,10 @@ Running the Models code notebook: https://github.com/dvasva5/lendingclub_analysi
 
 I ran a random forests model to rank the importance of and narrow the list of features to use on the logistic regression model. The final rank and list of features used on the logistic regression model are the following: ![Random Forest features](https://github.com/dvasva5/lendingclub_analysis/blob/master/rf_featuresrank.png)
 
-Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows: ![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
-  
+Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows:
+
+![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
+
 - TN: 71,892 = predicted no they're not defaults (will perform good), and they were not defaults (performed good).
 - FP: 1,446 = predicted yes they are defaults (will perform bad), but they were not actual defaults (performed good) (Type I error).
 - FN: 24,980 = predicted no they're not defaults (will perform good), and they were defaults (they performed bad) (Type II error).
