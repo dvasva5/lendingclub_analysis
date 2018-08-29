@@ -17,7 +17,7 @@ I am going to explore the dataset which includes over 1.3 million loan files and
  - Basic borrower information (brief demographics)
  - Borrower credit history (open accounts, bankcard credit limits, income, debts, etc.)
  - Loan information (terms, rates, payments, etc.)
- - Loan performance (status, i.e. collections, default, PIF)
+ - Loan performance (post funding status, collections info, payments, etc.)
 ______________
 ### Problem Statement
 Given a predefined set of borrower credit history and characteristics, can we separate low risk from high risk borrowers and ultimately identify features that will be indicative in predicting their loan performance?
