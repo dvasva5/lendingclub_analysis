@@ -1,6 +1,6 @@
 # Creating a Credit Scorecard using Logistic Regression
 
-Capstone project from General Assembly's Machine Learning with Python course.
+Capstone project from General Assembly's Machine Learning with Python course
 
 ### Table of Contents:
   1) Background and Dataset
@@ -20,10 +20,10 @@ I am going to explore the dataset which includes over 1.3 million loan files and
  - Loan performance (status, i.e. collections, default, PIF)
 ______________
 ### Problem Statement
-Given a predefined set of borrower credit history and characteristics, can we separate low risk from high risk borrowers and ultimately predict if a borrower will have trouble paying back a loan?
+Given a predefined set of borrower credit history and characteristics, can we separate low risk from high risk borrowers and ultimately identify features that will be indicative in predicting their loan performance?
 
 ### Hypothesis
-I think that employing a classification learner such as logistic regression or random forests, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance from a predefined set of loan application features.
+I think that employing a classification learner such as logistic regression and random forests, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance from a predefined set of loan application features.
 ______________
 ### Exploratory Data Analysis
 Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
@@ -65,6 +65,9 @@ Compiling the Scorecard code notebook: https://github.com/dvasva5/lendingclub_an
 
 After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and Implementing Intelligent Credit Scoring" he outlines a formula to bucket and score features to compile a scorecard to assess individual borrowers against. I used Sundar Krishnan python code to bucket and compute the features into WoE and IV values, you can find his code here: https://github.com/Sundar0989/WOE-and-IV/blob/master/WOE_IV.ipynb 
 
-You can see and use the scorecard on this excel sheet: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
+This scorecard is a simple template to assess borrowers and could be improved if based on a more comprehensive dataset and more indicative features to derive coefficients from. Considering the cut-off scores, the median score was arbitrarily chosen as the cut-off instead of a more analyitcal approach taking the whole pool of borrowers and perecentage of acceptance considering the underlying business's desired risk tolerance and ROI.
+
+You can use the scorecard on this excel sheet: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
 ______________
 ### Conclusion
+Given the unsatisfactory recall score from the logistic regression model and its inability to predict default loans from the test set we're given unreliable coefficients to classify features between the non-default and default loans dataset. Originally, the LendingClub dataset included more features but only accounted for approximately 20% of the used set - meaning this study took quantity of loans over quality of features used.
