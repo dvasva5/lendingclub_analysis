@@ -59,9 +59,9 @@ _______________
 ### Compiling the Credit Scorecard
 **Compiling the Scorecard code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/Scorecard%20build.ipynb**
 
-![Scorecard_sheet](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_sheet.png) 
-
 After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and Implementing Intelligent Credit Scoring" he outlines a formula to bucket and score features to compile a scorecard to assess individual borrowers against. I used Sundar Krishnan python code to bucket and compute the features into WoE and IV values, you can find his code here: https://github.com/Sundar0989/WOE-and-IV/blob/master/WOE_IV.ipynb 
+
+![Scorecard_sheet](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_sheet.png) 
 
 This scorecard is a simple template to assess borrowers and could be improved if based on a more comprehensive dataset and more indicative features to derive coefficients from. Considering the cut-off scores, the median score was arbitrarily chosen as the cut-off instead of a more analyitcal approach taking the whole pool of borrowers and perecentage of acceptance considering the underlying business's risk tolerance and ROI.
 
