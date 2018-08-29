@@ -26,6 +26,11 @@ Given a predefined set of borrower credit history and characteristics, can we se
 I think that employing a classification learner such as logistic regression or random forests, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance from a predefined set of loan application features.
 ______________
 ### Exploratory Data Analysis
+
+![Annual Income Data](https://github.com/dvasva5/lendingclub_analysis/blob/master/Annual%20Income%20data.png)
+
+![Total Current Balance by Loan Performance](https://github.com/dvasva5/lendingclub_analysis/blob/master/Total%20Current%20Balance%20by%20Loan%20Performance.png)
+
 Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset, followed by several charts to visualize their features. 
 
 Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
@@ -63,5 +68,3 @@ After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and I
 You can see and use the scorecard on this excel sheet: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
 ______________
 ### Conclusion
-
-
