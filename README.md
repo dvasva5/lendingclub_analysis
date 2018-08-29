@@ -29,8 +29,9 @@ ______________
 Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
 Visualizing the Features: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
 
-Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset, followed by several charts to visualize their features. 
+Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset while displaying graphs to visualize the data. 
 
+The following charts are just some samples: 
 ![Annual Income Data](https://github.com/dvasva5/lendingclub_analysis/blob/master/Annual%20Income%20data.png)
 
 ![Total Current Balance by Loan Performance](https://github.com/dvasva5/lendingclub_analysis/blob/master/Total%20Current%20Balance%20by%20Loan%20Performance.png)
