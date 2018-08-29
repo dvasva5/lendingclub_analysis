@@ -23,7 +23,7 @@ ______________
 Given a predefined set of borrower credit history and characteristics, can we separate low risk from high risk borrowers and ultimately identify features that will be indicative in predicting their loan performance?
 
 ### Hypothesis
-I think that employing a classification learner such as logistic regression and random forests, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance from a predefined set of loan application features.
+I think that employing a classification learner such as random forests and logistic regression, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance.
 ______________
 ### Exploratory Data Analysis
 Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
