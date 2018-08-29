@@ -1,6 +1,6 @@
 # Creating a Credit Scorecard using Logistic Regression
 
-Capstone project from General Assembly's Machine Learning with Python course
+**Capstone project from General Assembly's Machine Learning with Python course**
 
 ### Table of Contents:
   1) Background and Dataset
