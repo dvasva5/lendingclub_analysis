@@ -26,9 +26,9 @@ Given a predefined set of borrower credit history and characteristics, can we se
 I think that employing a classification learner such as random forests and logistic regression, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance.
 ______________
 ### Exploratory Data Analysis
-Cleaning the Dataset code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb 
+**Cleaning the Dataset code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb** 
 
-Visualizing the Features code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
+**Visualizing the Features code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb**
 
 Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset while displaying graphs to visualize the data. The following charts are just some samples: 
 
@@ -37,7 +37,7 @@ Within LendingClub’s website you can select as many features as you want to as
 ![Total Current Balance by Loan Performance](https://github.com/dvasva5/lendingclub_analysis/blob/master/Total%20Current%20Balance%20by%20Loan%20Performance.png "Total Current Balance by Loan Performance")
 _______________
 ### Running the Random Forests and Logistic Regression model
-Running the Models code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb
+**Running the Models code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb**
 
 I ran a random forests model to rank the importance of and narrow the list of features to use on the logistic regression model. The final rank and list of features used on the logistic regression model are the following: ![Random Forest features](https://github.com/dvasva5/lendingclub_analysis/blob/master/rf_featuresrank.png)
 
@@ -57,7 +57,7 @@ The ROC curve which shows the relationship between the FPR (false positive rate)
 ![ROC Curve](https://github.com/dvasva5/lendingclub_analysis/blob/master/roc_curve.png)
 _______________
 ### Compiling the Credit Scorecard
-Compiling the Scorecard code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/Scorecard%20build.ipynb
+**Compiling the Scorecard code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/Scorecard%20build.ipynb**
 
 ![Scorecard_sheet](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_sheet.png) 
 
