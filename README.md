@@ -52,3 +52,6 @@ The recall score which shows when the model predicts defaults and it's actually 
 The ROC curve which shows the relationship between the FPR (false positive rate) and the TPR (true positive rate or recall) has an AUC (area under the curve) score of: 66.2%
 
 ![ROC Curve](https://github.com/dvasva5/lendingclub_analysis/blob/master/roc_curve.png)
+_______________
+### Compiling the Credit Scorecard
+
