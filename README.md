@@ -5,9 +5,9 @@ Capstone project from General Assembly's Machine Learning with Python course
 ### Table of Contents:
   1) Background and Dataset
   2) Problem Statement and Hypothesis
-  3) Exploratory Data Analysis: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
-  4) Running the Random Forests and Logistic Regression Models: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb
-  5) Compiling the Credit Scorecard: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
+  3) Exploratory Data Analysis
+  4) Running the Random Forests and Logistic Regression Models
+  5) Compiling the Credit Scorecard
   6) Conclusion
 _______________
 ### Background and Dataset
@@ -26,8 +26,8 @@ Given a predefined set of borrower credit history and characteristics, can we se
 I think that employing a classification learner such as random forests and logistic regression, we’ll be able to classify a loan into a binary category, ultimately extracting features that predict loan performance.
 ______________
 ### Exploratory Data Analysis
-Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
-Visualizing the Features: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
+Cleaning the Dataset code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
+Visualizing the Features code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
 
 Within LendingClub’s website you can select as many features as you want to assess a borrowers application. In this project I select certain features and clean the dataset while displaying graphs to visualize the data. The following charts are just some samples: 
 
