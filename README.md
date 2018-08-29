@@ -35,9 +35,7 @@ The following charts are just some samples:
 ![Annual Income Data (https://github.com/dvasva5/lendingclub_analysis/blob/master/Annual%20Income%20data.png)
 
 In this chart "0" denotes non-default and "1" denotes default:
-
 ![Total Current Balance by Loan Performance (https://github.com/dvasva5/lendingclub_analysis/blob/master/Total%20Current%20Balance%20by%20Loan%20Performance.png)
-
 _______________
 ### Running the Random Forests and Logistic Regression model
 Running the Models code notebook: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb
