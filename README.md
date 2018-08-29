@@ -5,9 +5,9 @@ Capstone project from General Assembly's Machine Learning with Python course
 ### Table of Contents:
   1) Background and Dataset
   2) Problem Statement and Hypothesis
-  3) Exploratory Data Analysis
-  4) Running the Random Forests and Logistic Regression Models
-  5) Compiling the Credit Scorecard
+  3) Exploratory Data Analysis: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
+  4) Running the Random Forests and Logistic Regression Models: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_runningthemodels_notebook.ipynb
+  5) Compiling the Credit Scorecard: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_creditscorecard.xlsx
   6) Conclusion
 _______________
 ### Background and Dataset
