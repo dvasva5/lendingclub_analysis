@@ -61,7 +61,7 @@ _______________
 
 ![Scorecard_sheet](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_sheet.png) 
 
-After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and Implementing Intelligent Credit Scoring" he outlines a formula to bucket and score features to compile a scorecard to assess individual borrowers against. I used Sundar Krishnan python code to bucket and compute the features into WoE and IV values, you can find his code here: https://github.com/Sundar0989/WOE-and-IV/blob/master/WOE_IV.ipynb 
+After referring to Naeem Siddiqi's book "Credit Risk Scorecards Developing and Implementing Intelligent Credit Scoring" he outlines the WoE, IV, and *score formula shown below* to bucket and score features to compile a scorecard to assess individual borrowers against. I used Sundar Krishnan python code to bucket and compute the features into WoE and IV values, you can find his code here: https://github.com/Sundar0989/WOE-and-IV/blob/master/WOE_IV.ipynb 
 
 ![scorecard_formula](https://github.com/dvasva5/lendingclub_analysis/blob/master/scorecard_formula.png) 
 
