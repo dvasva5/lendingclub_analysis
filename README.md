@@ -31,7 +31,11 @@ Within LendingClub’s website you can select as many features as you want to as
 Cleaning the Dataset: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_cleaningdata_notebook.ipynb
 Visualizing the Features: https://github.com/dvasva5/lendingclub_analysis/blob/master/final_visualizingdata_notebook.ipynb
 _______________
-### Running the Logistic Regression and Random Forests model
+### Running the Random Forests and Logistic Regression model
+I ran a random forests model to rank the importance of and narrow the list of features to use on the logistic regression model. The final rank and list of features used on the logistic regression model are the following:
+
+![Random Forest features](https://github.com/dvasva5/lendingclub_analysis/blob/master/rf_featuresrank.png)
+
 Due to the final and skewed dataset of 400,489 files, the baseline score or split between default and non-defaulted loans is 106,687 and 293,802 respectively, showing 35.98% of the loans are defaulted loans. The logistic regression's confusion matrix results showing actual and predicted values are as follows:
 
 ![Confusion Matrix](https://github.com/dvasva5/lendingclub_analysis/blob/master/confusion_matrix_screenshot.png)
